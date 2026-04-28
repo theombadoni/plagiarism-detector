@@ -1,0 +1,35 @@
+# Compiled binary
+plagiacheck
+
+# Build artifacts
+*.o
+*.out
+*.dSYM/
+
+# Generated output (re-created on every run)
+output/results.json
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CMake (if switched from Makefile)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+
+# Logs
+*.loguploads/*
+!uploads/.gitkeep
+output/*
+!output/.gitkeep
+__pycache__/
+*.pyc
+venv/
