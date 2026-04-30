@@ -25,4 +25,4 @@
 //  Returns an empty set if the text is shorter than k words.
 // ─────────────────────────────────────────────────────────────────────────────
 std::unordered_set<std::size_t>
-generateFingerprints(const std::string& processedText, int k = 5, int w = 4);
+generateFingerprints(const std::string& processedText, int k = 1, int w = 1);

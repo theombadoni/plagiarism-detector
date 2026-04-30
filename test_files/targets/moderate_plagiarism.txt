@@ -1,0 +1,3 @@
+A quick brown fox jumped over the dog. Plagiarism detection tools need to identify when text is copied. People sometimes try to change a few words to avoid being detected. 
+
+Artificial intelligence and machine learning are very important fields today, but they rely on good datasets to train models. String matching algorithms are used to find similarities between documents, which is a key concept in computer science.

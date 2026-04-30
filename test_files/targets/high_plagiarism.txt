@@ -1,0 +1,3 @@
+The quick brown fox jumps over the lazy dog. This is a very famous sentence used to test typing on a keyboard since it contains every letter in the alphabet. Plagiarism detection systems must be able to identify when text like this is copied exactly, or when people try to change some words to avoid detection. Data science and machine learning rely on good datasets.
+
+In computer science, string matching algorithms like Rabin-Karp are frequently used to find similarities between text. Winnowing is another method used to fingerprint documents and compare them efficiently. By combining these algorithms, we can build a strong plagiarism detector.

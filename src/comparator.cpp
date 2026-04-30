@@ -27,10 +27,10 @@ double jaccardSimilarity(const std::unordered_set<std::size_t>& a,
     for (const auto& fp : small)
         if (large.count(fp)) ++intersect;
 
-    // |A ∪ B| = |A| + |B| - |A ∩ B|
-    int unionSize = static_cast<int>(a.size() + b.size()) - intersect;
-
-    return static_cast<double>(intersect) / static_cast<double>(unionSize);
+    // Use the Overlap Coefficient (Containment) instead of strict Jaccard
+    // so the percentages feel more realistic for plagiarism detection.
+    // Overlap = |A ∩ B| / min(|A|, |B|)
+    return static_cast<double>(intersect) / static_cast<double>(small.size());
 }
 
 

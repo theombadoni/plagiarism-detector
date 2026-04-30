@@ -21,10 +21,10 @@ std::string preprocess(const std::string& rawText);
 
 // ── fingerprint.h (Person A) ──────────────────────────────────────────────
 // Generate a set of Winnowed Rabin-Karp fingerprints from preprocessed text.
-//   k  = k-gram size  (default 5 words)
-//   w  = window size for Winnowing (default 4)
+//   k  = k-gram size  (default 3 words)
+//   w  = window size for Winnowing (default 3)
 std::unordered_set<std::size_t>
-generateFingerprints(const std::string& processedText, int k = 5, int w = 4);
+generateFingerprints(const std::string& processedText, int k = 1, int w = 1);
 
 // ── comparator.h (Person B) ───────────────────────────────────────────────
 // Jaccard similarity:  |A ∩ B| / |A ∪ B|
